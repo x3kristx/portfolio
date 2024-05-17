@@ -554,8 +554,20 @@ video {
   --tw-contain-style:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .relative {
   position: relative;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.right-4 {
+  right: 1rem;
 }
 
 .mt-16 {
@@ -582,8 +594,16 @@ video {
   height: 100vh;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .w-56 {
   width: 14rem;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .flex-col {
