@@ -1,4 +1,4 @@
-<!<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
@@ -17,6 +17,23 @@
     .container:hover {
       box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
     }
+
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #f1f1f1;
+      text-align: center;
+      padding: 10px;
+    }
+
+    /* Added styles for the GitHub button */
+    .github-button {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+    }
   </style>
 </head>
 <body class="flex justify-center items-start h-screen bg-gray-200">
@@ -27,6 +44,16 @@
     <div class="container">
       <p class="text-lg">Ma olen Kuressaare Ametikooli TA-23 kursuse õpilane. Kui ma juhuslikult ei ole koodi kirjutamas olen ma arvatavasti mängimas Final Fantasy XIV.</p>
     </div>
+  </div>
+  <div class="footer">
+    <button onclick="window.location.href='index.html'" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      Tagasi
+    </button>
+  </div>
+  <div class="github-button">
+    <a href="https://github.com/x3kristx" target="_blank">
+      <img src="github.png" alt="GitHub" width="40" height="40">
+    </a>
   </div>
 </body>
 </html>
